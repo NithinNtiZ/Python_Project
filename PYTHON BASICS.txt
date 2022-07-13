@@ -1,0 +1,116 @@
+PYTHON
+
+sep and end
+----------------------------------------------------------->
+print("hai","nithin","babu", sep="+") ====>output " hai+nithin+babu"
+
+pritn("hai", end='')===========|\
+print("nithin")================|/  "hainithin" all in
+
+string 
+--------------------------------------------------------------------------------->
+phrase = "nithin "
+	phrase.repalce()
+	phrase.index()
+	phrase.upper()
+	pharse.lower()
+
+number
+--------------------------------------------------------------------------------------->
+
+
+pow(2,3)-- 2^3 ; you can also use (2**2)
+max(2,3)--->
+min(2,3)--->
+round(2,3)--->
+sqrt(36)---->
+
+list
+------------------------------------------------------------------------------->
+
+number = ["1","2","3","4","5"]
+name =["nithin","babu", "one", "two", "three" ]
+
+	print(name[1:3])------. this prints name from babu to one even though it say 3 it won't print two
+	name.extend(number)--------> this will add both number and name 
+	name.append(four)------> this will add four to the list
+	name.insert(5, four)----> this will add four in index position 5
+	name.remove("nithin")---> remove nithin form list
+	name.clear() -------> clear everything form list
+	name.pop()-->
+	name.count("one")------> it will count no of nithin in the list 
+	name.sort()--------> this will sort the list
+	name.reverser()------> sort in reverse
+	name.copy()--------->  copy the list 
+
+
+tuple
+-------------------------------------------------------------------------------->
+it is like list but the entries in tuple can not be change and "()" is used  for eg  name = [(nithin) , (1,2)]
+
+
+dictionary 
+------------------------------------------------------------------------------->
+{} this is used in dictionary 
+
+declaration:
+monthconversion = { "jan":"january", 1:"one"}
+
+call:
+print(monthconversion["jan"] -----------> this will print january 
+
+print(monthconversion.get(1)) -----------> this will print one 
+
+
+open and read write and append a file 
+--------------------------------------------------------------------------------->
+
+x= open("file location ","r,w,r+,a")
+
+
+apppen or write a file ....>
+
+x.wirte("\n any text ")
+
+
+--->after opening file should be close
+
+x.close()
+
+CLASS
+----------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
